@@ -17,6 +17,7 @@ clara la estructura de la información obtenida.
 git clone git@github.com:adcc662/Wallmart-Scrapy.git
 cd Wallmart-scrapy
 docker build -t walmart_menu .
+cd walmart_menu
 docker run -v $(pwd):/app walmart_menu
 ```
 
